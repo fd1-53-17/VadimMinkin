@@ -1,0 +1,30 @@
+.p1 {
+   border: 8px solid rgba(255, 0, 0, 1);
+   margin-left: 0px;
+   margin-right: 800px;
+   padding: 40px;
+   border-top-right-radius: 50px;
+   border-top-left-radius: 50px;
+}
+
+.p2 {
+    border: 8px solid rgba(255, 0, 0, 1);
+    margin-left: 0px;
+    margin-right: 800px;
+    padding: 40px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.moon {
+    border: 10px solid rgba(255, 0, 0, 1);
+    margin-left: 0px;
+    margin-right: 800px;
+    padding: 40px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 15px;
+    font-style: oblique;
+    text-align: center;
+    color: #DAA520;
+}
+
+/*Лист в клетку*/
+.cage {
+    height: 100vh;
+    background: repeating-linear-gradient(to top, #A9A9A9, #A9A9A9 1vw, transparent 1vw, transparent 10vw),
+                repeating-linear-gradient(to right, #A9A9A9, #A9A9A9 1vw, transparent 1vw, transparent 10vw);
+}
+
+/*Позиционирование блока с карандашами*/
+#pencils {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+
+/*Круглый карандаш, центральная часть*/
+.center1 {
+    background: #466368;
+    background: linear-gradient(to top,  #648880, #f6f1d3, #293f50);
+    border-radius: 6px;
+    height: 25px;
+    width: 400px;
+}
+
+/*Граненый карандаш, центральная часть*/
+.center2 {
+    background: #466368;
+    background: linear-gradient(to top, #7E3992 0%, #7E3992 25%, #A4509D 25%, #A4509D 80%, #7E3992 80%, #7E3992 100%);
+    border-radius: 6px;
+    height: 25px;
+    width: 400px;
+}
+
+/*Круглый карандаш, кончик*/
+.tip1 {
+    border-top: 10px solid rgba(218, 193, 167, 0);
+    border-bottom: 11px solid rgba(218, 193, 167, 0);
+    border-right: 30px solid rgba(218, 193, 167, 0);
+    border-left: 30px solid rgba(218, 193, 167, 1);
+    margin-left: 396px;
+    margin-bottom: -40px;
+}
+
+/*Граненый карандаш, кончик*/
+.tip2 {
+    border-top: 10px solid rgba(218, 193, 167, 0);
+    border-bottom: 11px solid rgba(218, 193, 167, 0);
+    border-right: 30px solid rgba(218, 193, 167, 0);
+    border-left: 30px solid rgba(218, 193, 167, 1);
+    margin-left: 396px;
+    margin-top: -25px;
+}
+
+/*Пишущая часть*/
+.grif1 {
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 1);
+}
+
+.grif2 {
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 1);
+}

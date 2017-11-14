@@ -1,0 +1,48 @@
+div {
+    margin: 20px;
+    height: 25px;
+    width: 400px;
+    border: solid #808080 1px;
+}
+
+p {
+   float: left;
+   margin-top: 3px;
+   margin-left: 2px;
+   color: #818282;
+}
+
+nav {
+    float: right;
+}
+
+a {
+    color: #AD9462;
+    height: 20px;
+    width: 20px;
+    background-color: #DFDBD3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+li{
+    float: left;
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: -14px;
+}
+
+
+a:hover {
+    background-color: #933F25;
+    color: #fff;
+}
+
+a:focus {
+    color: #fff;
+    background-color: #933F25;
+}
+
+
+

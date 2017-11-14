@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.cel {
+    height: 9vmin;
+    width: 9vmin;
+    border-top: solid 2px #455F71;
+    border-left: solid 2px #455F71;
+}
+
+.col {
+    float: left;
+}
+
+.col>:last-child {
+    border-bottom: solid 2px #455F71;
+}
+
+.column_10>.cel {
+    border-right: solid 2px #455F71;
+}
+
+.markup {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1.5vmin;
+    font-family: 'Dancing Script', cursive;
+    color: #B34EE9;
+}
+
+.bg {
+    background-color: #455F71;
+}
+
+.column_6>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: -1.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_6>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: -1.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_5>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 19% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_5>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 19% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_4>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 61.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_4>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 61.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_7>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 61.5% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_7>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 61.5% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_3>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 83% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_3>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 83% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_8>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 83% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_8>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 83% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_9>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 41% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_9>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 41% 101%;
+    background-repeat: no-repeat;
+}
+
+.column_2>.cell_2 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 41% -3%;
+    background-repeat: no-repeat;
+}
+
+.column_2>.cell_9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 41% 101%;
+    background-repeat: no-repeat;
+}
+
+.black {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 104% -3%;
+    background-repeat: no-repeat;
+}
+
+.white {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: auto 18vmin;
+    background-position: 104% 101%;
+    background-repeat: no-repeat;
+}

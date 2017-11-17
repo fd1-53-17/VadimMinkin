@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 130px;
+    border-bottom: solid grey 2px;
+}
+
+.container {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: 90px;
+    background-color: #696969;
+    margin-top: 20px;
+    float: left;
+}
+
+.nav {
+    width: 250px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #696969;
+    display: inline-block;
+}
+
+.contact {
+    height: 90px;
+    width: 430px;
+    margin-top: 20px;
+    background-color: #696969;
+    float: right;
+}
+
+section {
+    height: 705px;
+    border-bottom: solid grey 2px;
+}
+
+.sidebar {
+    height: 665px;
+    width: 155px;
+    margin-top: 20px;
+    float: left;
+}
+
+.sidebar1 {
+    height: 280px;
+    width: 155px;
+    background-color: #696969;
+}
+
+.sidebar2 {
+    height: 120px;
+    width: 155px;
+    margin-top: 265px;
+    background-color: #696969;
+}
+
+.cont {
+    width: 645px;
+    height: 665px;
+    margin-top: 20px;
+    float: right
+}
+
+.cont1 {
+    width: 645px;
+    height: 175px;
+    background-color: #D3D3D3;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    float: right;
+}
+
+li {
+    padding: 0;
+    width: 110px;
+    height: 130px;
+    margin: 0 19px 20px 0;
+    background-color: #D3D3D3;
+    float: left;
+    display: block;
+}
+
+.cont2 {
+    width: 315px;
+    height: 170px;
+    background-color: #D3D3D3;
+    float: left;
+}
+
+.cont3 {
+    margin: 0;
+    padding: 0;
+    width: 315px;
+    height: 170px;
+    background-color: #D3D3D3;
+    float: right;
+}
+
+footer {
+    height: 200px;
+}
+
+.rightfoot {
+    width: 260px;
+    margin-top: 20px;
+    float: right;
+}
+
+.foot1 {
+    height: 155px;
+    width: 255px;
+    margin-top: 20px;
+    background-color: #696969;
+    float: left;
+}
+
+.foot2 {
+    height: 155px;
+    width: 255px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #696969;
+    display: inline-block;
+}
+
+.foot3 {
+    height: 60px;
+    width: 260px;
+    background-color: #696969;
+}
+
+.foot4 {
+    height: 60px;
+    width: 260px;
+    margin-top: 35px;
+    background-color: #696969;
+}

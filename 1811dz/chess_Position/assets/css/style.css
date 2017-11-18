@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: #E91F44;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*Разметка*/
+
+.row1 {
+    background-color: #56381F;
+    height: 50px;
+    width: 800px;
+    position: relative;
+}
+
+.empty1 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+}
+
+.empty2 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup1 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup2 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup3 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup4 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup5 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup6 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup7 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup8 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Первый ряд \ Игровое поле*/
+
+.row2 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num1 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num2 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup9 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 328px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup10 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 150px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup11 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 242px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup12 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -82px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup13 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup14 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 242px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup15 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 150px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup16 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 328px 0;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Второй ряд \ Игровое поле*/
+
+.row3 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num3 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num4 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup17 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup18 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup19 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup20 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup21 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup22 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup23 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup24 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px 0;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Третий ряд \ Игровое поле*/
+
+.row4 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num5 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num6 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup25 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup26 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup27 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup28 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup29 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup30 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup31 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup32 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Четвертый ряд \ Игровое поле*/
+
+.row5 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num7 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num8 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup33 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup34 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup35 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup36 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup37 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup38 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup39 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup40 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Пятый ряд \ Игровое поле*/
+
+.row6 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num9 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num10 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup41 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup42 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup43 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup44 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup45 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup46 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup47 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup48 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Шестой ряд \ Игровое поле*/
+
+.row7 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num11 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num12 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup49 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup50 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup51 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup52 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup53 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup54 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup55 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup56 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Седьмой ряд \ Игровое поле*/
+
+.row8 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num13 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num14 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup57 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup58 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup59 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup60 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup61 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup62 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup63 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup64 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 80px -95px;
+    background-size: 550px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Восьмой ряд \ Игровое поле*/
+
+.row9 {
+    height: 80px;
+    width: 800px;
+    position: relative;
+}
+
+#white {
+    background-color: #DECC8C;
+}
+
+#black {
+    background-color: #96723E;
+}
+
+.num15 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.num16 {
+    background-color: #56381F;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup65 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 328px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup66 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 150px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup67 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 242px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup68 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -82px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup69 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 0 -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup70 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 242px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup71 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 150px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup72 {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 328px -80px;
+    background-size: 500px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}
+
+/*Разметка*/
+
+.row10 {
+    padding: 0;
+    margin: 0;
+    background-color: #56381F;
+    height: 50px;
+    width: 800px;
+    position: relative;
+}
+
+.empty3 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+}
+
+.empty4 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+}
+
+.markup73 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+}
+
+.markup74 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+}
+
+.markup75 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+}
+
+.markup76 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 320px;
+}
+
+.markup77 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 400px;
+}
+
+.markup78 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 480px;
+}
+
+.markup79 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 560px;
+}
+
+.markup80 {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    left: 640px;
+}

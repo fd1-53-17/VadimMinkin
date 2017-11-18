@@ -1,0 +1,114 @@
+.row {
+    position: relative;
+}
+
+/*первый ряд*/
+
+.num1 {
+    position: absolute;
+}
+
+.num2 {
+    position: absolute;
+    left: 15px;
+}
+
+.num3 {
+    position: absolute;
+    left: 30px;
+}
+
+/*второй ряд*/
+
+.num4 {
+    position: absolute;
+    top: 15px;
+}
+
+.num5 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.num6 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+/*третий ряд*/
+
+.num7 {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.num8 {
+    position: absolute;
+    top: 30px;
+}
+
+.num9 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/*четвертый ряд*/
+
+.num10 {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+
+.num11 {
+    position: absolute;
+    top: 45px;
+}
+
+.num12 {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+/*пятый ряд*/
+
+.num13 {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+
+.num14 {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.num15 {
+    position: absolute;
+    top: 60px;
+}
+
+/*шестой ряд*/
+
+.num16 {
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+
+.num17 {
+    position: absolute;
+    top: 75px;
+    left: 15px;
+}
+
+.num18 {
+    position: absolute;
+    top: 75px;
+}

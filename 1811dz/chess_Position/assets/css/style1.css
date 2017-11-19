@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color: #FF0062;
+    text-align: center;
+}
+
+.chessboard {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.number_string_l {
+    width: 50px;
+    height: 500px;
+}
+
+.row1 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.row2 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.row3 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.row4 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.row5 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+.row6 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.row7 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+.row8 {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.number_string_r {
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+
+.sell {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: #74D5EC;
+}
+
+.black {
+    background-color: #435667;
+}
+
+.frame {
+    background-color: #1C3141;
+}
+
+.pawn_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 100% 5%;
+    background-size: 355px;
+}
+
+.pawn_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 100% 95%;
+    background-size: 400px;
+}
+
+.castle_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% 5%;
+    background-size: 330px;
+}
+
+.knight_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 83% 5%;
+    background-size: 340px;
+}
+
+.bishop_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 62% 0;
+}
+
+.king_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 20% 0;
+    background-size: 320px;
+}
+
+.queen_b {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 0 0;
+    background-size: 340px;
+}
+
+.castle_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% 100%;
+    background-size: 340px;
+}
+
+.knight_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 83% 100%;
+    background-size: 340px;
+}
+
+.bishop_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 63% 100%;
+    background-size: 330px;
+}
+
+.king_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 20% 100%;
+    background-size: 320px;
+}
+
+.queen_w {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 0 100%;
+    background-size: 340px;
+}

@@ -1,0 +1,27 @@
+nav {
+    width: 700px;
+    height: 30px;
+    text-align: center;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li:first-child::before {
+    content: "a";
+    font-family: "untitled-font-1";
+}
+
+li:not(:last-child)::after {
+    content: "|";
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+

@@ -1,0 +1,341 @@
+.chessTable {
+  width: 100vmin;
+  height: 100vmin;
+  counter-reset: number 0;
+}
+
+.chessTable>div {
+    outline: 1px solid #FF0A43;
+    width: 10%;
+    height: 10%;
+    float: left;
+    font-size: 8vmin;
+    color: #FF0A43;
+    text-align: center;
+}
+
+.chessTable>div:nth-of-type(8n+1) {
+    clear: both;
+    margin-left: 10vmin;
+}
+
+.chessTable>div:nth-of-type(8n+1):before {
+    content: counter(number);
+    counter-increment: number +1;
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-left: -10vmin;
+}
+
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+9)) {
+    margin-top: 10vmin;
+}
+
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+9)):nth-of-type(odd) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+9)):nth-of-type(even) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)):nth-of-type(odd) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)):nth-of-type(even) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+17):not(:nth-of-type(n+25)):nth-of-type(odd) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+17):not(:nth-of-type(n+25)):nth-of-type(even) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+25):not(:nth-of-type(n+33)):nth-of-type(odd) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+25):not(:nth-of-type(n+33)):nth-of-type(even) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+33):not(:nth-of-type(n+41)):nth-of-type(odd) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+33):not(:nth-of-type(n+41)):nth-of-type(even) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+41):not(:nth-of-type(n+49)):nth-of-type(odd) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+41):not(:nth-of-type(n+49)):nth-of-type(even) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+49):not(:nth-of-type(n+57)):nth-of-type(even) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+49):not(:nth-of-type(n+57)):nth-of-type(odd) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+57):not(:nth-of-type(n+64)):nth-of-type(odd) {
+    background-color: #696969;
+}
+
+.chessTable>div:nth-of-type(n+57):not(:nth-of-type(n+65)):nth-of-type(even) {
+    background-color: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -18% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)):hover {
+    background-position: -18% 105%;
+}
+
+.chessTable>div:nth-of-type(n+49):not(:nth-of-type(n+57)) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -18% 105%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(n+49):not(:nth-of-type(n+57)):hover {
+    background-position: -18% 0;
+}
+
+.chessTable>div:nth-of-type(1) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(1):hover {
+    background-position: 40% -90%;
+}
+
+.chessTable>div:nth-of-type(2) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position:-35% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(2):hover {
+    background-position:-35% -90%;
+}
+
+.chessTable>div:nth-of-type(3) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -56% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(3):hover {
+    background-position: -56% -95%;
+}
+
+.chessTable>div:nth-of-type(4) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 20% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(4):hover {
+    background-position: 20% -90%;
+}
+
+.chessTable>div:nth-of-type(5) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 0 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(5):hover {
+    background-position: 0 -95%;
+}
+
+.chessTable>div:nth-of-type(6) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -56% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(6):hover {
+    background-position: -56% -95%;
+}
+
+.chessTable>div:nth-of-type(7) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position:-35% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(7):hover {
+    background-position:-35% -90%;
+}
+
+.chessTable>div:nth-of-type(8) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% 0;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(8):hover {
+    background-position: 40% -90%;
+}
+
+.chessTable>div:nth-of-type(57) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% -90%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(57):hover {
+    background-position: 40% 0;
+}
+
+.chessTable>div:nth-of-type(58) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position:-35% -90%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(58):hover {
+    background-position:-35% 0;
+}
+
+.chessTable>div:nth-of-type(59) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -56% -95%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(59):hover {
+    background-position: -56% 0;
+}
+
+.chessTable>div:nth-of-type(60) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 0 -95%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(60):hover {
+    background-position: 0 0;
+}
+
+.chessTable>div:nth-of-type(61) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 20% -90%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(61):hover {
+    background-position: 20% 0;
+}
+
+.chessTable>div:nth-of-type(62) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: -56% -95%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(62):hover {
+    background-position: -56% 0;
+}
+
+.chessTable>div:nth-of-type(63) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position:-35% -90%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(63):hover {
+    background-position:-35% 0;
+}
+
+.chessTable>div:nth-of-type(64) {
+    background-image: url(https://github.com/antonkulakov-it/library/blob/master/chess.png?raw=true);
+    background-position: 40% -90%;
+    background-size: 65vmin auto;
+}
+
+.chessTable>div:nth-of-type(64):hover {
+    background-position: 40% 0;
+}
+
+.chessTable>div:nth-of-type(1)::after {
+    content: "A";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -20vmin;
+}
+
+.chessTable>div:nth-of-type(2)::after {
+    content: "B";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(3)::after {
+    content: "C";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(4)::after {
+    content: "D";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(5)::after {
+    content: "E";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(6)::after {
+    content: "F";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(7)::after {
+    content: "G";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}
+
+.chessTable>div:nth-of-type(8)::after {
+    content: "H";
+    display: block;
+    height: 10vmin;
+    width: 10vmin;
+    margin-top: -10vmin;
+}

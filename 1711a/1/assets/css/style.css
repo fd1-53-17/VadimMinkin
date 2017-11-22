@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    left: 30px;
+}
+
+header {
+    position: relative;
+    height: 110px;
+    width: 825px;
+}
+
+.block1 {
+    height: 95px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    top: 15px;
+}
+
+.block2 {
+    height: 95px;
+    width: 235px;
+    background-color: gray;
+    position: relative;
+    left: 125px;
+    top: 15px;
+}
+
+.block3 {
+    height: 95px;
+    width: 440px;
+    background-color: gray;
+    position: relative;
+    left: 385px;
+    top: -80px;
+}
+
+main {
+    position: relative;
+}
+
+aside {
+    margin: 0;
+    width: 155px;
+    height: 655px;
+    position: absolute;
+    top: 0;
+}
+
+.sidebar1 {
+    height: 275px;
+    width: 155px;
+    background-color: gray;
+    position: static;
+}
+
+.sidebar2 {
+    height: 115px;
+    width: 155px;
+    background-color: gray;
+    position: absolute;
+    top: 540px;
+}
+
+article {
+    width: 645px;
+    height: 655px;
+    position: relative;
+    left: 180px;
+
+}
+
+.content {
+    width: 645px;
+    height: 180px;
+    background-color: lightgray;
+}
+
+ul {
+    padding: 0;
+    height: 280px;
+    width: 645px;
+    position: absolute;
+    top: 180px;
+}
+
+li {
+    height: 130px;
+    width: 110px;
+    background-color: lightgray;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.block4 {
+    height: 170px;
+    width: 315px;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+}
+
+.block5 {
+    height: 170px;
+    width: 315px;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+    height: 155px;
+    width: 825px;
+    position: relative;
+}
+
+.block6 {
+    width: 255px;
+    height: 155px;
+    background-color: gray;
+    position: relative;
+}
+
+.block7 {
+    width: 255px;
+    height: 155px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 280px;
+}
+
+.block8 {
+    width: 260px;
+    height: 60px;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.block9 {
+    width: 260px;
+    height: 60px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

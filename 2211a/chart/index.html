@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>chart</title>
+</head>
+
+<body>
+    <div class="chart">
+        <h3>Creating a chart</h3>
+        </br>
+        <p>To create a chart, we need to instsntiate the <span class="first">Chart</span> class. To do this, we need to pass in the 2d context of where we want to draw the chart. Here's an example.
+        </p>
+        </br>
+        <p class="canvas">
+            <span class="violet">&lt;canvas&ensp;</span><span class="green">id=</span>
+            <span class="red">"myChart"&ensp;</span><span class="green">width=</span>
+            <span class="red">"400"&ensp;</span><span class="green">height=</span>
+            <span class="red">"400"</span><span class="violet">&gt;&lt;/canvas&gt;</span>
+        </p>
+        </br>
+        <div class="script1">
+            <p class="comment">// Get the context of the canvas element we want to select</p>
+            <p class="var"><strong>var&emsp;</strong>ctx&emsp;=&emsp;<span class="blue">document</span>.getElementById(<span class="red">"myChart"</span>).getContext(<span class="red">"2d"</span>);
+            <strong>var&emsp;</strong>myNewChart&emsp;=&emsp;<strong>new&emsp;</strong>Chart(ctx).PolarArea(data);
+            </p>
+        </div>
+        </br>
+        <p>We can also get the context of our canvas with jQuery. To do this, we need to get the DOM node out of the jQuery collection, and call the </br><span class="first">getContext("2d")</span> method on that.</p>
+        </br>
+        <div class="script2">
+            <p class="comment">// Get context with jQuery&ensp;&ndash;&ensp;using jQuery's .get() method.</p>
+            <p class="var"><strong>var&emsp;</strong>ctx&emsp;=&emsp;$(<span class="red">"myChart"</span>).get(<span class="green">0</span>).getContext(<span class="red">"2d"</span>);</p>
+            <p class="comment">// This will get the first returned node in the jQuery collection.</p>
+            <p class="var"><strong>var&emsp;</strong>myNewChart&emsp;=&emsp;<strong>new&emsp;</strong>Chart(ctx);</p>
+        </div>
+    </div>
+</body>
+
+</html>

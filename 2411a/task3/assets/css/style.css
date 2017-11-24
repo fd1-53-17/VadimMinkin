@@ -1,0 +1,175 @@
+.row {
+    position: relative;
+}
+
+/*первый ряд*/
+
+.num1 {
+    top: 0;
+    left: 0;
+}
+
+.num2 {
+    top: 0;
+    left: 15px;
+}
+
+.num3 {
+    top: 0;
+    left: 30px;
+}
+
+/*второй ряд*/
+
+.num4 {
+    top: 15px;
+    left: 0;
+}
+
+.num5 {
+    top: 15px;
+    left: 15px;
+}
+
+.num6 {
+    top: 15px;
+    left: 30px;
+}
+
+/*третий ряд*/
+
+.num7 {
+    left: 0;
+    top: 30px;
+}
+
+.num8 {
+    top: 30px;
+    left: 15px;
+}
+
+.num9 {
+    top: 30px;
+    left: 30px;
+}
+
+/*четвертый ряд*/
+
+.num10 {
+    left: 0;
+    top: 45px;
+}
+
+.num11 {
+    top: 45px;
+    left: 15px;
+}
+
+.num12 {
+    top: 45px;
+    left: 30px;
+}
+
+/*пятый ряд*/
+
+.num13 {
+    left: 0;
+    top: 60px;
+}
+
+.num14 {
+    top: 60px;
+    left: 15px;
+}
+
+.num15 {
+    top: 60px;
+    left: 30px;
+}
+
+/*шестой ряд*/
+
+.num16 {
+    top: 75px;
+    left: 0;
+}
+
+.num17 {
+    top: 75px;
+    left: 15px;
+}
+
+.num18 {
+    top: 75px;
+    left: 30px;
+}
+
+.all:hover .num5 {
+    top: 15px;
+    left: 30px;
+}
+
+.all:hover .num6 {
+    top: 15px;
+    left: 15px;
+}
+
+.all:hover .num7 {
+    top: 30px;
+    left: 15px;
+}
+
+.all:hover .num8 {
+    top: 30px;
+    left: 0;
+}
+
+.all:hover .num10 {
+    top: 45px;
+    left: 30px;
+}
+
+.all:hover .num11 {
+    top: 45px;
+    left: 0;
+}
+
+.all:hover .num12 {
+    top: 45px;
+    left: 15px;
+}
+
+.all:hover .num13 {
+    top: 60px;
+    left: 15px;
+}
+
+.all:hover .num14 {
+    top: 60px;
+    left: 30px;
+}
+
+.all:hover .num15 {
+    top: 60px;
+    left: 0;
+}
+
+.all:hover .num16 {
+    top: 75px;
+    left: 30px;
+}
+
+.all:hover .num17 {
+    top: 75px;
+    left: 15px;
+}
+
+.all:hover .num18 {
+    top: 75px;
+    left: 0;
+}
+
+.all>.row>div {
+    transition: all 1s;
+    position: absolute;
+}

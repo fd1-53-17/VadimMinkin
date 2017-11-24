@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.chart {
+    height: 440px;
+    width: 490px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: sans-serif
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7884A1;
+}
+
+.first {
+    padding: 3px 5px 3px 5px;
+    background-color: #FAFAFA;
+    border: solid 1px #FAFAFA;
+    border-radius: 5px;
+}
+
+.canvas {
+    padding-top: 3px;
+    padding-left: 10px;
+    border: solid 1px #FAFAFA;
+    background-color: #FAFAFA;
+    width: 470px;
+    height: 25px;
+    font-size: 13px;
+    font-family: monospace;
+    border-radius: 6px;
+}
+
+.red {
+    color: #C92C4E;
+}
+
+.green {
+    color: #247F7F;
+}
+
+.violet {
+    color: #564697;
+}
+
+.blue {
+    color: #408EB3;
+}
+
+.script1 {
+    width: 470px;
+    height: 60px;
+    border: solid 1px #FAFAFA;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.comment {
+    font-style: italic;
+    font-family: monospace;
+    color: #A1A69F;
+    width: 550px;
+    font-size: 14px;
+}
+
+.var {
+    color: #000;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.script2 {
+    width: 470px;
+    height: 100px;
+    border: solid 1px #FAFAFA;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+    padding-left: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}

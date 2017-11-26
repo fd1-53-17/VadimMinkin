@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.saber {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    background-color: #A9A9A9;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: inset 2px 0 0 1px #F8494F;
+    transition: 1.5s;
+}
+
+.saber::after {
+    content: "";
+    display: block;
+    width: 0;
+    border: 5px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    z-index: -1;
+    transition: width 1s linear 0.8s, box-shadow 2s 3s;
+}
+
+.saber:hover {
+    box-shadow: inset 100px 0 20px 10px #F8494F, inset 0 0 10px 100px #fff;
+}
+
+.saber:hover::after {
+    box-shadow: 0 0 10px 5px #fff, 0 0 10px 15px #F8494F;
+    width: 350px;
+    transition: width 1s linear 1s, box-shadow 0s 1s;
+}

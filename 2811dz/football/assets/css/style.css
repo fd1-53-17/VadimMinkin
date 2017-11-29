@@ -4,10 +4,9 @@
     font-family: sans-serif;
 }
 
-header {
-    min-height: 40px;
-    max-width: 800px;
-    padding-top: 15px;
+header, footer {
+    width: 100%;
+    padding: 20px 0 20px 0;
     background-color: #9BD5E3;
     text-align: center;
     text-transform: uppercase;
@@ -15,91 +14,77 @@ header {
     font-weight: bold;
 }
 
-main {
-    max-width: 800px;
-    display: flex;
+content, aside {
+    float: right;
 }
 
 aside {
-    width: 180px;
-    background-color: #EFE384;
+    width: 170px;
+    background-color: #EBE388;
 }
 
 content {
-    background-color: #E1F6FF;
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: calc(100% - 170px);
+}
+
+main:after {
+  display: block;
+  content: '';
+  clear: both;
 }
 
 h4 {
-    margin-left: 10px;
-    width: 150px;
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 ul {
-   margin-top: 15px;
-   padding-left: 25px;
-   padding-right:15px;
+    list-style-type: none;
+    margin: 15px;
 }
 
-ul li {
-    margin-bottom: 3px;
-    list-style-type: circle;
+li {
+    margin-bottom: 5px;
+}
+
+li a  {
+    text-decoration: none;
 }
 
 h3 {
-    margin-top: 15px;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px;
+}
+
+p {
+    padding: 0 15px 0 15px;
 }
 
 img {
     float: left;
-    max-width: 100%;
-    margin: 0 15px 5px 0;
+    margin: 0 15px 0 15px;
 }
-
-footer {
-    min-height: 50px;
-    max-width: 800px;
-    padding-top: 20px;
-    background-color: #9BD5E3;
-    text-align: center;
-    text-transform: uppercase;
-    color: #2132F9;
-    font-weight: bold;
+@media screen and (max-width: 320px) {
+  content, aside {
+    float: none;
+    width: auto;
+    }
+    
+    img {
+    width: 100%;
+    float: none;
+    margin: 0;
+    }
+    
+    h4, li {
+        text-align: center;
+    }
+    
+    p{
+        padding: 0 5px 0 5px;
+    }
+    
+    ul {
+        padding-bottom: 20px;
+    }
 }
-
-@media screen and (max-width: 320px){
-    main {
-        display: block;
-        width: 100%;
-        min-width: 240px;
-        position: relative;
-    }
-    
-    aside {
-        width: 100%;
-        height: 320px;
-        display: inline-block;
-        position: absolute;
-        top: 700px;
-    }
-    
-    content {
-        display: inline-block;
-        height: 702px;
-        position: absolute;
-        top: 0;
-    }
-    
-    footer {
-        width: 100%;
-        position: absolute;
-        top: 1075px;
-    }
-    
-}
-

@@ -1,0 +1,19 @@
+form {
+    height: 150px;
+    width: 250px;
+    border: double 3px #000;
+    background-color: #D3D3D3
+}
+
+#name {
+    margin: 20px 0 0 40px;
+}
+
+#pass {
+    margin-left: 40px;
+}
+
+#sub {
+    margin-left: 40px;
+}
+

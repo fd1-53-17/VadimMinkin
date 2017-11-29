@@ -1,0 +1,4 @@
+#ex1:checked~label[for=ex2-red], #ex1:checked~label[for=ex2-green] {
+    display: none;
+}
+

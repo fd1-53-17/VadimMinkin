@@ -8,7 +8,7 @@ nav>ul {
 }
 
 @media screen and (max-width: 320px) {
-  nav>ul>li{
+  nav>ul>li {
     display: block;
   }
   nav {
@@ -17,7 +17,7 @@ nav>ul {
 }
 
 @media screen and (min-width: 321px) and (max-width: 640px) {
-  nav>ul>li{
+  nav>ul>li {
     display: inline-block;
     margin: auto 2px;
   }
@@ -27,7 +27,7 @@ nav>ul {
 }
 
 @media screen and (min-width: 641px) and (max-width: 800px) {
-  nav>ul>li{
+  nav>ul>li {
     display: block;
     float: left;
     width: 18vw;
@@ -40,7 +40,7 @@ nav>ul {
 }
 
 @media screen and (min-width: 801px) {
-  nav>ul>li{
+  nav>ul>li {
     font-size: 2vw;
     display: block;
     float: right;

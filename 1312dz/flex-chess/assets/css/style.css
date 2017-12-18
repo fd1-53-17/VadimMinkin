@@ -1,0 +1,210 @@
+body {
+    background: #fff;
+}
+
+.chessTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 537px;
+    margin: 3rem 3rem;
+    counter-reset: number 0;
+    font-size: 3em;
+}
+
+.chessTable>div {
+    margin: 0.03rem;
+    width: 4rem;
+    height: 4rem;
+    border: solid 1px;
+    position: relative;
+}
+
+.chessTable>div:nth-of-type(8n+8):before {
+    content: counter(number);
+    counter-increment: number +1;
+    margin-left: 5rem;
+}
+
+.chessTable>div:nth-of-type(1):before {
+    content: "1";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(9):before {
+    content: "2";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(17):before {
+    content: "3";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(25):before {
+    content: "4";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(33):before {
+    content: "5";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(41):before {
+    content: "6";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(49):before {
+    content: "7";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(57):before {
+    content: "8";
+    margin-left: -2.5rem;
+}
+
+.chessTable>div:nth-of-type(1)::after {
+    content: "A";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(2)::after {
+    content: "B";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(3)::after {
+    content: "C";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(4)::after {
+    content: "D";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(5)::after {
+    content: "E";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(6)::after {
+    content: "F";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(7)::after {
+    content: "G";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(8)::after {
+    content: "H";
+    position: absolute;
+    top: -3.3rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(57)::after {
+    content: "A";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(58)::after {
+    content: "B";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(58)::after {
+    content: "B";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(59)::after {
+    content: "C";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(60)::after {
+    content: "D";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(61)::after {
+    content: "E";
+    position: absolute;
+    top: 3.7rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(62)::after {
+    content: "F";
+    position: absolute;
+    top: 3.5rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(63)::after {
+    content: "G";
+    position: absolute;
+    top: 3.5rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(64)::after {
+    content: "H";
+    position: absolute;
+    top: 3.5rem;
+    left: 1rem;
+}
+
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+8)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+9):not(:nth-of-type(n+17)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+16):not(:nth-of-type(n+24)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+25):not(:nth-of-type(n+33)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+33):not(:nth-of-type(n+40)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+41):not(:nth-of-type(n+49)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+48):not(:nth-of-type(n+56)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+57):not(:nth-of-type(n+65)):nth-of-type(even) {
+    background: #D3D3D3;
+}
+
+.chessTable>div:nth-of-type(n):not(:nth-of-type(n+9)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+8):not(:nth-of-type(n+16)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+17):not(:nth-of-type(n+25)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+24):not(:nth-of-type(n+32)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+34):not(:nth-of-type(n+41)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+40):not(:nth-of-type(n+48)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+49):not(:nth-of-type(n+57)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+56):not(:nth-of-type(n+64)):nth-of-type(odd) {
+    background: #696969;
+}

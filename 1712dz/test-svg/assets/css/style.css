@@ -1,0 +1,22 @@
+rect:hover {
+    fill: #B25FD3;
+    stroke: #FFDD00;
+    transform: rotate(2deg);
+}
+
+rect:nth-of-type(2):hover {
+    fill: #D3D3D3;
+    width: 160px;
+}
+
+path:hover {
+    fill: #39FF32;
+    stroke: #FF0A0A;
+    transform: rotate(-2deg);
+}
+
+ellipse:hover {
+    width: 30px;
+    rx: 60; ry: 30;
+    fill: #39FF32;
+}

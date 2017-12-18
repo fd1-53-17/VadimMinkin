@@ -1,0 +1,23 @@
+@bodyColor: #654e5f;
+
+@font: 25px;
+
+@color: red;
+
+body {
+    background: @bodyColor;
+    color: @color + #555555;
+    font-size: @font;
+}
+
+.roundBorder(@br, @bw, @bs, @bc) {
+    border:  @bw @bs @bc;
+    border-radius: @br;
+}
+
+.button {
+    .roundBorder (5px, 2px, solid, @color + #555555);
+    width: 150px;
+    color: @color + #555555;
+    font-size: @font;
+}

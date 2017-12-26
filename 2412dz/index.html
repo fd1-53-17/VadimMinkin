@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var annual_income = 1; //доход в год
+        var exploitation_time = 10; //срок эксплуатации
+        var mileage = 20000; //пробег в год
+        var fuel_price = 0.50; //стоимость топлива
+
+        var cars=[{brand: "Ford",        model: "Mondeo",   color: "белый",     fuel: 8.8,  price: 10.56, seats: 4, year: 2010},
+                  {brand: "Audi",        model: "A6",       color: "красный",   fuel: 7.6,  price: 15.6,  seats: 4, year: 2009},
+                  {brand: "Mersedes",    model: "ML320",    color: "черный",    fuel: 13.3, price: 18.3,  seats: 4, year: 2011},
+                  {brand: "Volkswagen",  model: "Passat",   color: "черный",    fuel: 8.5,  price: 11.5,  seats: 4, year: 2015},
+                  {brand: "Volkswagen",  model: "Polo",     color: "красный",   fuel: 4.7,  price: 7.1,   seats: 4, year: 2012},
+                  {brand: "Toyota",      model: "Camry",    color: "металлик",  fuel: 7.9,  price: 6.87,  seats: 4, year: 2005},
+                  {brand: "Volvo",       model: "S60",      color: "бордовый",  fuel: 9.8,  price: 12.5,  seats: 4, year: 2008},
+                  {brand: "Volkswagen",  model: "Tuareg",   color: "металлик",  fuel: 9.6,  price: 17.50, seats: 7, year: 2014},
+                  {brand: "BMW",         model: "M5",       color: "красный",   fuel: 13.3, price: 16,    seats: 4, year: 2010},
+                  {brand: "BMW",         model: "M3",       color: "бордовый",  fuel: 10.6, price: 15.8,  seats: 4, year: 2011}];
+        
+        // начальные значения
+        var newcar = cars[0].year;
+        var oldcar = cars[0].year;
+        var cheapest = cars[0].price;
+        var expensive = cars[0].price;
+        var economical = cars[0].fuel;
+
+        for(var i=0; i<cars.length; i++){
+            if(cars[i].year > newcar) {
+                newcar = cars[i].year;         //самые новые автомобили
+            }
+            if(cars[i].year < oldcar) {
+                oldcar = cars[i].year;         //самые старые автомобили
+            }   
+            if(cars[i].price < cheapest) {
+                cheapest = cars[i].price;       //самые дешевые автомобили
+            }
+            if(cars[i].price > expensive) {
+                expensive = cars[i].price;      //самые дорогие автомобили
+            }
+            if(cars[i].fuel < economical) {
+                economical = cars[i].fuel;      //расход топлива самых экономичных автомобилей
+            }
+        }
+
+    
+        for(i=0; i<cars.length; i++){
+            if(cars[i].year==newcar) console.log("Самый новый автомобиль: "+cars[i].brand+" "+cars[i].model+". Год выпуска: "+cars[i].year);
+            if(cars[i].year==oldcar) console.log("Самый старый автомобиль: "+cars[i].brand+" "+cars[i].model+". Год выпуска: "+cars[i].year);
+            if(cars[i].price==cheapest) console.log("Самый дешевый автомобиль: "+cars[i].brand+" "+cars[i].model+". Цена: "+cars[i].price+" биткойна");
+            if(cars[i].fuel==economical) console.log("Самый экономичный автомобиль: "+cars[i].brand+" "+cars[i].model+". Расход топлива: "+cars[i].fuel+" л на 100 км");
+        }
+        
+        var difference=newcar - oldcar;
+        console.log("Разница в возрасте самого старого и самого нового автомобиля - "+difference+" лет.");
+
+        
+        var fuelCost = exploitation_time * mileage * cars[0].fuel/100 * fuel_price; // начальные значения
+        var minTotalCost = fuelCost + cars[0].price;     // для сравнения с последующими
+        var totalCost;
+        var profitable={};
+
+        for(i=0;i<cars.length;i++)
+        {
+            fuelCost = exploitation_time * mileage * cars[i].fuel / 100 * fuel_price; // затраты на топливо
+            totalCost = fuelCost + cars[i].price;  // затраты на топливо + стоимость авто
+            if(totalCost<minTotalCost)
+            {
+                minTotalCost = totalCost;
+                profitable = cars[i];
+            }
+        }
+        console.log("Наиболее выгодный автомобиль: "+profitable.brand+" "+profitable.model+". Затраты на его покупку и 10 лет эксплуатации составят "+minTotalCost+" биткойна");
+
+        
+        for(i=0;i<cars.length;i++){
+            if(cars[i].price==expensive) {
+                console.log("Самый дорогой автомобиль: "+cars[i].brand+" "+cars[i].model+". Цена: "+cars[i].price+" биткойна");
+                console.log("При годовом доходе размером "+annual_income+" биткойн, вам придется работать "+cars[i].price/annual_income+" лет для его покупки.");
+            }
+        }
+    </script>
+</body>
+</html>
